@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:background="@drawable/rectangle_radious">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:paddingLeft="30dp"
+                            android:gravity="center"
+                            android:paddingRight="30dp">
+
+                            <com.example.bugssolveinc.bangou.font.MyTextviewLight
+                                android:id="@+id/hint_congra"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Earn hint"
+                                android:textSize="20sp"
+                                android:gravity="center|left"
+                                android:textColor="#EC5054"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
+                            android:paddingLeft="30dp"
+                            android:gravity="center"
+                            android:paddingRight="30dp">
+
+                            <com.example.bugssolveinc.bangou.font.MyTextviewLight
+                                android:id="@+id/tv_addi_message"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textColor="#000000"
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:elevation="10dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:paddingLeft="60dp"
+                            android:paddingRight="60dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp">
+
+                                <com.example.bugssolveinc.bangou.font.MyTextviewLight
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="OK"
+                                    android:gravity="center"
+                                    android:textStyle="normal"
+                                    android:textColor="#ffff"
+                                    android:background="@drawable/undo_hint_back"
+                                    android:id="@+id/tv_hint_ok" />
+
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="right|top"
+            android:src="@drawable/cancel" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

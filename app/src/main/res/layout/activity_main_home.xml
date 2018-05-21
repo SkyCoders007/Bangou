@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF3F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_timer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bangou"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:elevation="50dp"
+                android:textColor="#EC5054"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="100dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:background="@drawable/rectangle_radious">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:paddingLeft="30dp"
+                            android:gravity="center"
+                            android:paddingRight="30dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Choose Level"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:textColor="#EC5054"
+                                android:textStyle="bold"/>
+
+                            </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:paddingLeft="30dp"
+                            android:gravity="center"
+                            android:paddingRight="30dp">
+
+                            <TextView
+                                android:id="@+id/tv_easy"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Easy"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:textColor="#ffff"
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:elevation="10dp"
+                                android:background="@drawable/undo_hint_back"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:paddingLeft="30dp"
+                            android:gravity="center"
+                            android:paddingRight="30dp">
+
+                            <TextView
+                                android:id="@+id/tv_hard"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Hard"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:textColor="#ffff"
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:elevation="10dp"
+                                android:background="@drawable/undo_hint_back"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Bangou</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+    <string name="elevan">11</string>
+    <string name="twel">12</string>
+    <string name="thirty">13</string>
+    <string name="fourty">14</string>
+    <string name="fifty">15</string>
+    <string name="sixty">16</string>
+    <string name="seventy">17</string>
+    <string name="eighty">18</string>
+    <string name="ninty">19</string>
+    <string name="twenty">20</string>
+    <string name="twentyone">21</string>
+    <string name="twentytwo">22</string>
+    <string name="twentythree">23</string>
+    <string name="twentyfour">24</string>
+    <string name="twentyfive">25</string>
+    <string name="twentysix">26</string>
+    <string name="twentyseven">27</string>
+    <string name="twentyeight">28</string>
+    <string name="dialog_internet_alert">No internet available, Please connect to internet to go further</string>
+    <string name="dialog_ok">OK</string>
+    <string name="play">Play</string>
+    <string name="rate">Rate</string>
+    <string name="help">Help</string>
+    <string name="game_difficuilt">GAME DIFFICULTY</string>
+    <string name="easy_level">EASY</string>
+    <string name="hard_level">HARD</string>
+
+
+</resources>
